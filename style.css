@@ -1,0 +1,102 @@
+/* Smartphone View for the TO-DO list page */
+BODY{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    BACKGROUND-COLOR: BLACK;
+}
+
+.smartphone{
+    width:360px;
+    margin: auto;
+    height:700px;
+    border-radius:48px;
+    border:10px solid black;
+    background-image:url("./milky-way-2695569__340.jpg");
+    box-shadow: 0px 0px 5px #efefef;
+}
+.smartphone .bottom{
+    border-radius:48px;
+    z-index:0;
+    width:inherit;
+    display:flex;
+    flex-direction:row;
+}
+.margin-top{
+    margin-top:555px;
+}
+.smartphone .top{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top:20px;
+    left:46%;
+    align-self: center;
+    font-weight: bold;
+    font-size: 16px;
+    color:white;
+    margin: 0 auto;
+    margin-top:5px;
+    border-radius:20px;
+    height:20px;
+    width:100px;
+    background-color: black;
+    border:5px solid black;
+    z-index: 5;
+    text-indent:0.3cm;
+}
+.menubtn{
+    height: 100px;
+    width:100px;
+    margin:0px 30px;
+    border-radius:30px;
+    border:none;
+    /* background-image: url("./todoliaticon.jpg"); */
+    box-shadow: 2px 1px 100px black;
+    cursor: pointer;
+}
+#todolist{
+    background-image: url("./todoliaticon.jpg");
+}
+#todolist1{
+    background-image: url("./610073.png");
+
+}
+.white{
+    background-color:#9BABB9;
+    height:600px;
+    margin-top:0px;
+}
+
+.screen{
+    position: absolute;
+    display:none;
+    height: 640px;
+    width: 340px;
+    padding:40px 10px 20px 10px;
+    border-radius:40px;
+    background-color:azure;
+}
+.top #textbox{
+    margin:4px 18px;
+}
+.cnf{
+    width:30px;
+    cursor:pointer;
+    height:20px;
+    border-radius:10px;
+}
+.cnf:hover{
+    box-shadow: 0px 1px 2px white;
+}
+.yes{
+    background-color:green;
+}
+.no{
+    background-color:red;
+}
+#counter{
+    display:none;
+}
